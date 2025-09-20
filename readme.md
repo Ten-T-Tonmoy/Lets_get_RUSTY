@@ -5,6 +5,7 @@
 - `cargo build` => builds it
 - `cargo run` => runs it
 - `cargo check` => checks it
+- `cargo add` => adds dependencies to .toml
 -
 
 #### dir check
