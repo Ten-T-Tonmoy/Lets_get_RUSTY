@@ -1,0 +1,65 @@
+# === Rust & Cargo ===
+
+# Binaries
+/target/
+/**/target/
+
+# Cargo package registry
+/.cargo/
+/**/.cargo/
+
+# Cargo local config
+.cargo/config.toml
+.cargo/config
+.cargo/credentials
+**/.cargo/config.toml
+**/.cargo/config
+**/.cargo/credentials
+
+# Build output & lockfiles (optional)
+**/*.rlib
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.exe
+**/*.pdb
+
+# If you don’t want lockfiles tracked for each subcrate
+# (Keep only at workspace root if using one)
+**/Cargo.lock
+
+# === IDE / Editors ===
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# JetBrains / CLion / RustRover
+.idea/
+**/.idea/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# === OS / Misc ===
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# === Testing / Coverage ===
+
+# Code coverage
+/coverage/
+/**/coverage/
+
+# Debug / profiling
+*.profraw
+*.profdata
+
+# === Logs ===
+*.log
