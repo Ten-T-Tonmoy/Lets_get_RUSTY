@@ -9,4 +9,7 @@ fn main(){
         _=>println!("Default unmatched to avoid panic!"),
 
     }
+
+    let arr2=[5;10];
+    println!("{}",arr2[3]);
 }
